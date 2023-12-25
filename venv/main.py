@@ -1,3 +1,5 @@
+text1 = list()
+book = dict()
 class Count_procent_symvols():
     def count_symvols(self, start_text):
         start_text.readlines()
