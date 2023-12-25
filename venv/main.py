@@ -1,5 +1,3 @@
-text1 = []
-book = dict()
 class Count_procent_symvols():
     def count_symvols(self, start_text):
         start_text.readlines()
@@ -33,4 +31,3 @@ class Count_procent_symvols():
         for a, b in book.items():
             print(a, "- ", len(b) * 100 / len(text1), '%')
         start_text.close()
-
