@@ -2,9 +2,9 @@ text1 = list()
 book = dict()
 class Count_procent_symvols():
     def count_symvols(self, start_text):
-        start_text.readlines()
+        start_text1 = start_text.readlines()
         text = ""
-        for i in start_text:
+        for i in start_text1:
             text += i
         text.lower()
         text = text.replace(",", "")
