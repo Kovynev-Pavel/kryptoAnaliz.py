@@ -31,5 +31,5 @@ class Count_procent_symvols():
                     values.append(text1[u])
                 book[text3[y]] = values
         for a, b in book.items():
-            print(a, "- ", len(b) * 100 / len(text1), '%')
+            return a, "- ", len(b) * 100 / len(text1), "%"
         start_text.close()
