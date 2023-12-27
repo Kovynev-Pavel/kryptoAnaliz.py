@@ -30,6 +30,5 @@ class Count_procent_symvols():
                 if text1[u] == text3[y]:
                     values.append(text1[u])
                 book[text3[y]] = values
-        for a, b in book.items():
         return book
         start_text.close()
