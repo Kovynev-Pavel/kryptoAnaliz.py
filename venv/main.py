@@ -4,9 +4,8 @@ class Count_procent_symvols():
     def count_symvols(self, start_text):
         start_text1 = start_text.readlines()
         text = ""
-        for i in start_text1:
-            text += i
-        text.lower()
+        text += start_text1[0]
+        text = text.lower()
         text = text.replace(",", "")
         text = text.replace(":", "")
         text = text.replace(".", "")
